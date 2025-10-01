@@ -24,7 +24,7 @@ jobs:
         uses: scanoss/code-scan-action@v1.2.3
         with:
           dependencies.enabled: true
-          policies: cpl, und, dt
+          policies: und, dt
           api.key: ${{ secrets.SC_API_KEY }}
           deptrack.upload: true
           deptrack.url: 'https://dependency-track.scanoss.xyz/'
