@@ -27,8 +27,8 @@ jobs:
           dependencies.enabled: true
           policies: und, dt
           api.key: ${{ secrets.SC_API_KEY }}
-          deptrack.upload: false
+          deptrack.upload: true
           deptrack.url: 'https://dependency-track.scanoss.xyz/'
-          deptrack.projectname: 'alex-test'
+          deptrack.projectname: 'gha-demo-01'
           deptrack.projectversion: '1.0.0'
           deptrack.apikey: ${{ secrets.SC_DT_API_KEY }}
